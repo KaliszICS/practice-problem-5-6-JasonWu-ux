@@ -1,3 +1,4 @@
+[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=23915914)
 # Instructions  
 
 1. Implement a library management system using composition relationships. Create the following classes:</br>
@@ -38,12 +39,12 @@ toString() - Returns a string representation: "Battery: [capacityMAh] mAh, Charg
 
 Create a Display class with:</br>
 
-Private instance variables: double sizeInches and String resolution</br>
-Constructor: public Display(double sizeInches, String resolution)</br>
+Private instance variables: double sizeInches, String resolution, boolean isOn</br>
+Constructor: public Display(double sizeInches, String resolution) - Default isOn to Off</br>
 Methods:</br>
 
-turnOn() - return the string "Display turned on. [sizeInches]-inch, [resolution]"</br>
-turnOff() - return the string "Display turned off."</br>
+turnOn() - return the string "Display turned on. [sizeInches]-inch, [resolution]", change isOn to true</br>
+turnOff() - return the string "Display turned off.", change isOn to false</br>
 getSizeInches() - Returns the size</br>
 getResolution() - Returns the resolution</br>
 toString() - Returns a string representation: "Display: [sizeInches] inches, [resolution]"</br>
